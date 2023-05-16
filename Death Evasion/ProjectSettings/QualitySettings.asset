@@ -224,6 +224,7 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 2
+<<<<<<< HEAD
     CloudRendering: 5
     GameCoreScarlett: 5
     GameCoreXboxOne: 5
@@ -231,6 +232,11 @@ QualitySettings:
     Nintendo Switch: 5
     PS4: 5
     PS5: 5
+=======
+    Lumin: 5
+    Nintendo Switch: 5
+    PS4: 5
+>>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
     Stadia: 5
     Standalone: 5
     WebGL: 3
