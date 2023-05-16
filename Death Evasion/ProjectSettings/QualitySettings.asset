@@ -225,6 +225,9 @@ QualitySettings:
   m_PerPlatformDefaultQuality:
     Android: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
     CloudRendering: 5
     GameCoreScarlett: 5
     GameCoreXboxOne: 5
@@ -232,11 +235,14 @@ QualitySettings:
     Nintendo Switch: 5
     PS4: 5
     PS5: 5
+<<<<<<< HEAD
 =======
     Lumin: 5
     Nintendo Switch: 5
     PS4: 5
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
     Stadia: 5
     Standalone: 5
     WebGL: 3

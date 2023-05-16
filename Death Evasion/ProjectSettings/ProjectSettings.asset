@@ -5,10 +5,14 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
 <<<<<<< HEAD
+<<<<<<< HEAD
   productGUID: 2c0d66a071daa8148aa6b1943b73d7df
 =======
   productGUID: a910e97a84f2e044dbf66ab4c076ccff
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  productGUID: 92405edc5855e744fa45d1d718fa238b
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -153,6 +157,9 @@ PlayerSettings:
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   targetPixelDensity: 0
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
@@ -160,6 +167,7 @@ PlayerSettings:
   applicationIdentifier: {}
   buildNumber: {}
   overrideDefaultApplicationIdentifier: 0
+<<<<<<< HEAD
 =======
   targetPixelDensity: 30
   resolutionScalingMode: 0
@@ -173,6 +181,8 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -190,16 +200,22 @@ PlayerSettings:
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   iOSTargetOSVersionString: 
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 
+<<<<<<< HEAD
 =======
   iOSTargetOSVersionString: 11.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 11.0
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -254,6 +270,7 @@ PlayerSettings:
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
@@ -262,6 +279,11 @@ PlayerSettings:
   templatePackageId: com.unity.template.2d@6.0.0
   templateDefaultScene: Assets/Scenes/SampleScene.unity
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
@@ -296,6 +318,7 @@ PlayerSettings:
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -337,6 +360,11 @@ PlayerSettings:
     m_APIs: 10000000
     m_Automatic: 1
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobMode: []
+  m_BuildTargetGraphicsAPIs: []
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -540,10 +568,14 @@ PlayerSettings:
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
 <<<<<<< HEAD
+<<<<<<< HEAD
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
 =======
   ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -618,10 +650,14 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroPackageName: Death Evasion
 =======
   metroPackageName: 2D_BuiltInRenderer
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  metroPackageName: Death Evasion
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
@@ -629,10 +665,14 @@ PlayerSettings:
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroApplicationDescription: Death Evasion
 =======
   metroApplicationDescription: 2D_BuiltInRenderer
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  metroApplicationDescription: Death Evasion
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0

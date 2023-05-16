@@ -6,11 +6,15 @@ EditorSettings:
   serializedVersion: 11
   m_SerializationMode: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_LineEndingsForNewScripts: 2
   m_DefaultBehaviorMode: 0
   m_PrefabRegularEnvironment: {fileID: 0}
   m_PrefabUIEnvironment: {fileID: 0}
   m_SpritePackerMode: 0
+<<<<<<< HEAD
 =======
   m_LineEndingsForNewScripts: 0
   m_DefaultBehaviorMode: 1
@@ -18,16 +22,22 @@ EditorSettings:
   m_PrefabUIEnvironment: {fileID: 0}
   m_SpritePackerMode: 4
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_SpritePackerPaddingPower: 1
   m_EtcTextureCompressorBehavior: 1
   m_EtcTextureFastCompressor: 1
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;asmref;rsp;java;cpp;c;mm;m;h
 =======
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;asmref;rsp
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;asmref;rsp;java;cpp;c;mm;m;h
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_ProjectGenerationRootNamespace: 
   m_EnableTextureStreamingInEditMode: 1
   m_EnableTextureStreamingInPlayMode: 1
@@ -42,10 +52,14 @@ EditorSettings:
   m_UseLegacyProbeSampleCount: 0
   m_SerializeInlineMappingsOnOneLine: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DisableCookiesInLightmapper: 0
 =======
   m_DisableCookiesInLightmapper: 1
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  m_DisableCookiesInLightmapper: 0
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_AssetPipelineMode: 1
   m_CacheServerMode: 0
   m_CacheServerEndpoint: 

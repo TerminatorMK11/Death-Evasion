@@ -43,10 +43,14 @@ Physics2DSettings:
   m_QueriesStartInColliders: 1
   m_CallbacksOnDisable: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ReuseCollisionCallbacks: 0
 =======
   m_ReuseCollisionCallbacks: 1
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  m_ReuseCollisionCallbacks: 0
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_AutoSyncTransforms: 0
   m_AlwaysShowColliders: 0
   m_ShowColliderSleep: 1

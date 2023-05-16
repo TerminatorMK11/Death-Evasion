@@ -13,9 +13,13 @@ AudioManager:
   m_VirtualVoiceCount: 512
   m_RealVoiceCount: 32
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EnableOutputSuspension: 1
 =======
 >>>>>>> 4c87ca563a15b47ecc1b6b909aecfe08d344c6ab
+=======
+  m_EnableOutputSuspension: 1
+>>>>>>> 7e11c115db7495453c3a280e6f8cd62335a11949
   m_SpatializerPlugin: 
   m_AmbisonicDecoderPlugin: 
   m_DisableAudio: 0
