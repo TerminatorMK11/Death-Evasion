@@ -750,7 +750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2700315762823644348, guid: 52855755f77108a4f862794b796a9d6c, type: 3}
       propertyPath: m_JumpForce
-      value: 400
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 2700315762823644348, guid: 52855755f77108a4f862794b796a9d6c, type: 3}
       propertyPath: m_CrouchDisableCollider
