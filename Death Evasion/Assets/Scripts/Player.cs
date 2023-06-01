@@ -34,5 +34,16 @@ public class Player : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-
+    public void Die()
+    {
+        if (maxHealth <= 0)
+        {
+            FindObjectOfType<Level>().LoadGameOver();
+            Destroy(gameObject);
+            
+        }
+    }
 }
+
+
+
