@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            FindObjectOfType<Level>().LoadGameOver();
         }
     }
 
