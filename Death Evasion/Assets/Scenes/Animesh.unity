@@ -1316,10 +1316,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8598499186016231843, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
       propertyPath: jump
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8598499186016231843, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
       propertyPath: crouch
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598499186016231846, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
+      propertyPath: m_AirControl
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8598499186016231847, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
@@ -1328,7 +1332,7 @@ PrefabInstance:
       objectReference: {fileID: 306131832}
     - target: {fileID: 8640002189696903634, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
       propertyPath: m_BodyType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8640002189696903634, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
       propertyPath: m_GravityScale
