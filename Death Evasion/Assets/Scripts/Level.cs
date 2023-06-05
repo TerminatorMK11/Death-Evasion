@@ -48,21 +48,7 @@ public class Level : MonoBehaviour
         SceneManager.LoadScene(5);
         FindObjectOfType<GameSession>().ResetGame();
     }
-    public void LoadLevel6()
-    {
-        SceneManager.LoadScene(6);
-        FindObjectOfType<GameSession>().ResetGame();
-    }
-    public void LoadLevel7()
-    {
-        SceneManager.LoadScene(7);
-        FindObjectOfType<GameSession>().ResetGame();
-    }
-    public void LoadLevel8()
-    {
-        SceneManager.LoadScene(8);
-        FindObjectOfType<GameSession>().ResetGame();
-    }
+    
     public void QuitGame()
     {
         Application.Quit();
