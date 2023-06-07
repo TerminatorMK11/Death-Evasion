@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1345829105572690756
+--- !u!1 &1482535884844925079
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,8 +91,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1069970041374566382}
-  - component: {fileID: 1469964345248388507}
+  - component: {fileID: 1620734242842525071}
+  - component: {fileID: 9213030303985992299}
+  - component: {fileID: 5435635023711932774}
   m_Layer: 0
   m_Name: ezgif.com-gif-maker_0
   m_TagString: Untagged
@@ -100,27 +101,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1069970041374566382
+--- !u!4 &1620734242842525071
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345829105572690756}
+  m_GameObject: {fileID: 1482535884844925079}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -252.2147, y: -170.8654, z: 0}
-  m_LocalScale: {x: 9.762459, y: 9.708143, z: 1}
+  m_LocalPosition: {x: -296.7907, y: -202.3972, z: 0}
+  m_LocalScale: {x: 11.305513, y: 9.709909, z: 1}
   m_Children: []
-  m_Father: {fileID: 2405421067150048773}
-  m_RootOrder: 3
+  m_Father: {fileID: 5961423026460160148}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1469964345248388507
+--- !u!212 &9213030303985992299
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345829105572690756}
+  m_GameObject: {fileID: 1482535884844925079}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -160,12 +161,31 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.8005212, y: 0.6}
+  m_Size: {x: 0.8, y: 0.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5435635023711932774
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482535884844925079}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d79cd98f9aa7aa43b5baddf9d4a013d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5961423025573316016
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +484,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2405421067150048773}
+  - {fileID: 1620734242842525071}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -833,7 +854,6 @@ RectTransform:
   - {fileID: 5961423025573316031}
   - {fileID: 5961423026692276210}
   - {fileID: 392563975}
-  - {fileID: 1069970041374566382}
   m_Father: {fileID: 5961423026460160148}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
