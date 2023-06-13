@@ -340,6 +340,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1069970041374566382, guid: 0a31b5e43a2551a4cb95a8a8ed6f3579, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.762459
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469964345248388507, guid: 0a31b5e43a2551a4cb95a8a8ed6f3579, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469964345248388507, guid: 0a31b5e43a2551a4cb95a8a8ed6f3579, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469964345248388507, guid: 0a31b5e43a2551a4cb95a8a8ed6f3579, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5961423026460160148, guid: 0a31b5e43a2551a4cb95a8a8ed6f3579, type: 3}
       propertyPath: m_Pivot.x
       value: 0
