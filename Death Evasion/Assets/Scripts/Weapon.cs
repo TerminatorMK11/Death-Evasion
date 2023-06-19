@@ -8,6 +8,7 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
+    public CameraShake cameraShake;
 
     // Update is called once per frame
     void Update()
@@ -15,6 +16,7 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            cameraShake.ShakeCamera();
         }
     }
 

@@ -5,13 +5,22 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
+    public CameraShake cameraShake;
+
     public int maxHealth = 100;
     public int currentHealth;
 
     public HealthBar healthBar;
 
+    public Vector2 Position { get; set; }
 
     // Start is called before the first frame update
+
+    public Player(float x, float y)
+    {
+        Position = new Vector2(x, y);
+    }
+
     void Start()
     {
         currentHealth = maxHealth;

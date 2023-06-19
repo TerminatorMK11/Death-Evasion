@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f2e1531cbf8d64ba4430bc6e2fb47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 8597936422222039318, guid: 0356481d427fc6d4dae1f9fc903168db, type: 3}
+  player: {fileID: 2777539075751482215, guid: 94d0251e91cbdd4448244a6b613b557c, type: 3}
   force: 20
 --- !u!61 &-4982403446498831263
 BoxCollider2D:
