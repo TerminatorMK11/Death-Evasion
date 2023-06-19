@@ -7,32 +7,20 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Title Screen.unity
-    guid: 41438933b838fea458f85c97d57ed9b4
+    guid: e63fa08dae7d28e49a9bc6eae36af2da
   - enabled: 1
-    path: Assets/Scripts/Scenes/Level 1.unity
+    path: Assets/Scenes/Level 1.unity
     guid: 8efde180a5a130b41a29a783d5315741
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 7063e5523baaf8d43831eef44d261b88
-  - enabled: 1
-    path: Assets/Scripts/Scenes/Level 3.unity
+    path: Assets/Scenes/Level 3 - Copy.unity
     guid: a50aff08c4f540941afda34d39064304
   - enabled: 1
-    path: Assets/Scripts/Scenes/Level 4.unity
+    path: Assets/Scenes/Level 4 - Copy.unity
     guid: 46b7272b97011a44ca31b70e6a6f32d7
   - enabled: 1
-    path: Assets/Scripts/Scenes/Level 5 ~ Stormy Night At The Docks.unity
+    path: Assets/Scenes/Level 5 ~ Stormy Night At The Docks.unity
     guid: 32874f6752c43734fb2dca22fe27f4bd
   - enabled: 1
-    path: Assets/Scenes/Level 6.unity
-    guid: 86a410a3d5600c84b89c5f95379cea49
-  - enabled: 1
-    path: Assets/Scenes/Level 7.unity
-    guid: 7e49595f4f574934f9aa6a61483f4be2
-  - enabled: 1
-    path: Assets/Scenes/Level 8 Final Level.unity
-    guid: 7aac1de1958c8864c894d9bb82a63ad0
-  - enabled: 1
-    path: Assets/Scripts/Scenes/Game Over Screen.unity
+    path: Assets/Scenes/Game Over Screen - Copy.unity
     guid: 5d091ad31217e314eb5c389c1f75f547
   m_configObjects: {}
