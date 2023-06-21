@@ -123,6 +123,83 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &303873841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857529, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857530, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: waves.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857530, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: waves.Array.data[1].name
+      value: Normal Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857530, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: waves.Array.data[1].rate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857530, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: waves.Array.data[0].enemy
+      value: 
+      objectReference: {fileID: 3996558448046936139, guid: 8e99f6d77d4a4ef46a24e36d3ff6bb95, type: 3}
+    - target: {fileID: 5589143842295857530, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: waves.Array.data[1].count
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589143842295857531, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
+      propertyPath: m_Name
+      value: WaveSpawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b00806ea9f729944388809bd62eb4dd7, type: 3}
 --- !u!1001 &420239356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -328,9 +405,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 51050396044671352, guid: 42cc614545925754a9f86c455041b079, type: 3}
+      propertyPath: m_Volume
+      value: 0.448
+      objectReference: {fileID: 0}
+    - target: {fileID: 51050396044671352, guid: 42cc614545925754a9f86c455041b079, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 65e7665ba49aa3044899b78224ab7928, type: 3}
+      objectReference: {fileID: 8300000, guid: 5e13351ec1eafd7489a505a731a86f57, type: 3}
     - target: {fileID: 51050396044671353, guid: 42cc614545925754a9f86c455041b079, type: 3}
       propertyPath: m_Name
       value: Music Player
