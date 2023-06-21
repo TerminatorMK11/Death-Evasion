@@ -14,7 +14,7 @@ public class Level : MonoBehaviour
     private IEnumerator WaitAndLoad()
     {
         yield return new WaitForSeconds(delayInSeconds);
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(7);
     }
 
     public void LoadStartMenu()
@@ -43,12 +43,16 @@ public class Level : MonoBehaviour
         SceneManager.LoadScene(4);
         FindObjectOfType<GameSession>().ResetGame();
     }
-    public void LoadLevel5()
+    public void LoadLevel5() //Level 5 1st part
     {
         SceneManager.LoadScene(5);
         FindObjectOfType<GameSession>().ResetGame();
     }
-    
+    public void LoadLevel6() //Level 5 2nd part
+    {
+        SceneManager.LoadScene(6);
+        FindObjectOfType<GameSession>().ResetGame();
+    }
     public void QuitGame()
     {
         Application.Quit();
