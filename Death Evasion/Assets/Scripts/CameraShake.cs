@@ -5,8 +5,8 @@ public class CameraShake : MonoBehaviour
 {
     public Transform cameraTransform;
     public float shakeDuration = 0.1f;
-    public float shakeMagnitude = 0.5f;
-    public float dampingSpeed = 1.0f;
+    public float shakeMagnitude = 0.1f;
+    public float dampingSpeed = 0.5f;
 
     private Vector3 initialPosition;
     private float shakeTimer = 0f;
