@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 921ea00ff341b0644a9eb52236f6318e
+guid: 993f5a7ff74fac84a96778ae94362513
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5221560515916420178
-    second: other guy 1 idle animation_0
+      213: -7678039908718608861
+    second: other guy 1 jump_0
   - first:
-      213: -7075525709626791692
-    second: other guy 1 idle animation_1
+      213: 8662517151076317128
+    second: other guy 1 jump_1
   - first:
-      213: 8135339726512594591
-    second: other guy 1 idle animation_2
-  - first:
-      213: 4801989877680208619
-    second: other guy 1 idle animation_3
-  - first:
-      213: -2674677343933064888
-    second: other guy 1 idle animation_4
+      213: 3707651278353461668
+    second: other guy 1 jump_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,7 +41,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -166,7 +160,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: other guy 1 idle animation_0
+      name: other guy 1 jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -180,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaba893306a4987b0800000000000000
-      internalID: -5221560515916420178
+      spriteID: 32efd8d026f127590800000000000000
+      internalID: -7678039908718608861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: other guy 1 idle animation_1
+      name: other guy 1 jump_1
       rect:
         serializedVersion: 2
         x: 60
@@ -201,35 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f82d86dadeaecd90800000000000000
-      internalID: -7075525709626791692
+      spriteID: 8c7f1a2f371773870800000000000000
+      internalID: 8662517151076317128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: other guy 1 idle animation_2
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 100
-        width: 60
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9e18edd06886e070800000000000000
-      internalID: 8135339726512594591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: other guy 1 idle animation_3
+      name: other guy 1 jump_2
       rect:
         serializedVersion: 2
         x: 0
@@ -243,29 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bea762a0a5814a240800000000000000
-      internalID: 4801989877680208619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: other guy 1 idle animation_4
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 60
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84995127023a1ead0800000000000000
-      internalID: -2674677343933064888
+      spriteID: 4a1f7459139347330800000000000000
+      internalID: 3707651278353461668
       vertices: []
       indices: 
       edges: []
@@ -273,7 +225,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 2c5a457a8bd67c34781c6616536fe54d
     internalID: 0
     vertices: []
     indices: 

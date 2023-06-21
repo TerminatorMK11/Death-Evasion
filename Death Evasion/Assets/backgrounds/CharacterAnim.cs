@@ -15,7 +15,7 @@ public class CharacterAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.A))
         {
             anim.SetBool("isRunning", true);
         }
@@ -23,7 +23,15 @@ public class CharacterAnim : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKey(KeyCode.D))
+        {
+            anim.SetBool("runLeft", true);
+        }
+        else
+        {
+            anim.SetBool("runLeft", false);
+        }
+        if (Input.GetKeyUp(KeyCode.W))
         {
             anim.SetTrigger("jump");
         }
