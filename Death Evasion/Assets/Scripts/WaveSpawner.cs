@@ -50,7 +50,7 @@ public class WaveSpawner : MonoBehaviour
 
         Debug.Log("All waves completed!");
 
-            
+        // Check if all enemies are defeated
         StartCoroutine(CheckAllEnemiesDefeated());
     }
 
