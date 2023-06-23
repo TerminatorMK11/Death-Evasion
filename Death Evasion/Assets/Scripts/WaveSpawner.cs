@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Wave
@@ -7,17 +8,25 @@ public class Wave
     public GameObject enemyPrefab;
     public int enemyCount;
     public float spawnDelay;
+    public Transform[] spawnPoints; // Array of spawn points for the wave
 }
 
 public class WaveSpawner : MonoBehaviour
 {
     public Wave[] waves;
-    public Transform spawnPoint;
     public float timeBetweenWaves = 5f;
+    public string nextSceneName; // The name of the scene to transition to after all waves are completed
     private int currentWaveIndex = 0;
+    private int totalEnemies;
 
     private void Start()
     {
+        totalEnemies = 0;
+        foreach (var wave in waves)
+        {
+            totalEnemies += wave.enemyCount;
+        }
+
         StartCoroutine(SpawnWaves());
     }
 
@@ -32,7 +41,7 @@ public class WaveSpawner : MonoBehaviour
 
             for (int i = 0; i < currentWave.enemyCount; i++)
             {
-                SpawnEnemy(currentWave.enemyPrefab);
+                SpawnEnemy(currentWave.enemyPrefab, currentWave.spawnPoints);
                 yield return new WaitForSeconds(currentWave.spawnDelay);
             }
 
@@ -40,10 +49,37 @@ public class WaveSpawner : MonoBehaviour
         }
 
         Debug.Log("All waves completed!");
+
+            
+        StartCoroutine(CheckAllEnemiesDefeated());
     }
 
-    void SpawnEnemy(GameObject enemyPrefab)
+    IEnumerator CheckAllEnemiesDefeated()
     {
+        while (true)
+        {
+            yield return null;
+
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            int remainingEnemies = enemies.Length;
+
+            if (remainingEnemies == 0 && currentWaveIndex == waves.Length)
+            {
+                // Transition to the next scene
+                if (!string.IsNullOrEmpty(nextSceneName))
+                {
+                    SceneManager.LoadScene(nextSceneName);
+                }
+
+                yield break;
+            }
+        }
+    }
+
+    void SpawnEnemy(GameObject enemyPrefab, Transform[] spawnPoints)
+    {
+        int randomIndex = Random.Range(0, spawnPoints.Length);
+        Transform spawnPoint = spawnPoints[randomIndex];
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }

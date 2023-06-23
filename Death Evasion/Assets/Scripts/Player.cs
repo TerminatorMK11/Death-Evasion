@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -41,16 +42,24 @@ public class Player : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+
     }
 
-    public void Die()
+    private void Die()
     {
         if (currentHealth <= 0)
         {
-            FindObjectOfType<Level>().LoadGameOver();
+            PlayerDeath();
         }
     }
+
+    private void PlayerDeath()
+    {
+        SceneManager.LoadScene("Game Over Screen");
+    }
 }
+
+
 
 
 

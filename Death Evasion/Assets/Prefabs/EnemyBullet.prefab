@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 5802052437147465317}
   - component: {fileID: 6896146422493647486}
   - component: {fileID: -4982403446498831263}
-  - component: {fileID: -8078906687064933760}
   - component: {fileID: -3351006253883408103}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: EnemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,6 +31,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5076, y: -2.066, z: 0}
   m_LocalScale: {x: 3.5852, y: 4.2007, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f2e1531cbf8d64ba4430bc6e2fb47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2777539075751482215, guid: 94d0251e91cbdd4448244a6b613b557c, type: 3}
+  player: {fileID: 3996094051488946199, guid: 52ac7bc5cd996c34d9448400ae1fd63b, type: 3}
   force: 20
 --- !u!61 &-4982403446498831263
 BoxCollider2D:
@@ -149,20 +149,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.06, y: 0.04}
   m_EdgeRadius: 0
---- !u!114 &-8078906687064933760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7510510957289584020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 472a22fbd50479d4586a9dea12324314, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 5
-  numOfEnemies: 0
 --- !u!114 &-3351006253883408103
 MonoBehaviour:
   m_ObjectHideFlags: 0
